@@ -1,0 +1,37 @@
+{% extends 'index.html' %}
+{% block content %}
+<style> 
+	body {
+	  background-image: url("/static/img.jpg");
+	  
+	}
+</style>
+		  		<h1 style="color:white"> Abstractive  Text Summarization </h1>
+				
+
+				<p>
+				    <u><span style="font-size:22px;"></span></u></p>
+				<p style="color:white"> Enter the text to be summarised below.<br> </p>
+
+				<form action="" method="post" name="query">
+					<p class="form form-reset">
+            Please enter your input:<br>
+            <textarea name="input_text" rows="10" cols="100" placeholder="Enter the document here"></textarea></p>
+
+            <input name="submit_btn" type="submit" value="Submit" /></p>
+
+          </p>
+				</form>
+		
+        <p style="color:black; width: 800px; padding: 10px; border: 5px solid rgb(173, 231, 239); background-color:rgb(204, 238, 243) ; font-size: 12px;">{{ result }}</p>
+        <p style="color:black"> {{ word1 }} </p>
+        <p style="color:black"> {{ word2 }} </p>
+        <p style="color:black"> {{ word3 }} </p>
+				<br>
+				<pre>
+				
+				</pre>
+{% endblock %}
+
+
+
