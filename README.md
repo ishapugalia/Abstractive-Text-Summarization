@@ -8,7 +8,6 @@ Table of Contents
 * [Usage](#usage)
 * [Documentation](#documentation)
 * [Author](#author)
-* [License](#license)
 
 ## Installation
 
