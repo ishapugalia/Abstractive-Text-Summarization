@@ -22,5 +22,8 @@ pip install -r demo_requirements.txt
 cd src
 python app.py
 ```
+## Documentation
+
+Refer to <a href="https://github.com/nilax97/NLP-Project/blob/master/report.pdf" target="_blank"> documentation.pdf  </a>
 
 Then navigate to `http://127.0.0.1:5000/` and access the tool
