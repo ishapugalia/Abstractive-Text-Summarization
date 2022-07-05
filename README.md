@@ -1,5 +1,5 @@
 # Major Project-Abstractive-Text-Summarization
-> Project on Abstractive Summarization of News for course on Natural Language Processing at IIT Delhi
+> Project on Abstractive Summarization of News articles
 
 Table of Contents
 =================
